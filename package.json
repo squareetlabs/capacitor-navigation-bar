@@ -1,6 +1,6 @@
 {
   "name": "@squareetlabs/capacitor-navigation-bar",
-  "version": "1.0.1",
+  "version": "1.1.0",
   "description": "This Capacitor Plugin allows control of the navigation bar on Android devices.",
   "main": "dist/plugin.cjs.js",
   "module": "dist/esm/index.js",
@@ -59,10 +59,10 @@
     "prepublishOnly": "npm run build"
   },
   "devDependencies": {
-    "@capacitor/android": "^6.0.0",
-    "@capacitor/core": "^6.0.0",
+    "@capacitor/android": "^6.0.0 || ^7.0.0",
+    "@capacitor/core":"^6.0.0 || ^7.0.0",
     "@capacitor/docgen": "^0.2.2",
-    "@capacitor/ios": "^6.0.0",
+    "@capacitor/ios":"^6.0.0 || ^7.0.0",
     "@ionic/eslint-config": "^0.3.0",
     "@ionic/prettier-config": "^4.0.0",
     "@ionic/swiftlint-config": "^1.1.2",
@@ -75,7 +75,7 @@
     "typescript": "~5.2.2"
   },
   "peerDependencies": {
-    "@capacitor/core": "^6.0.0"
+    "@capacitor/core": "^6.0.0 || ^7.0.0"
   },
   "prettier": "@ionic/prettier-config",
   "swiftlint": "@ionic/swiftlint-config",

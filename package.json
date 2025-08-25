@@ -29,7 +29,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://jacobo-squareet@bitbucket.org/squareetlabs/capacitor-navigation-bar.git"
+    "url": "git+https://github.com/squareetlabs/capacitor-navigation-bar.git"
   },
   "keywords": [
     "capacitor",

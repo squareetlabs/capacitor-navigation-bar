@@ -4,7 +4,7 @@ This is a capacitor plugin to control the navigation bar on Android devices.
 ## Install
 
 ```bash
-npm install @squareetlbas/capacitor-navigation-bar
+npm install @squareetlabs/capacitor-navigation-bar
 ionic cap sync
 ```
 

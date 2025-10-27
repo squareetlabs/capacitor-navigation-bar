@@ -125,9 +125,7 @@ public class NavigationBarPlugin extends Plugin {
             windowInsetsController.setAppearanceLightNavigationBars(darkButtons);
 
             this.currentColor = Color.parseColor(color);
-            if (Build.VERSION.SDK_INT < Build.VERSION_CODES.R || !this.isTransparent) {
-                window.setNavigationBarColor(this.currentColor);
-            }
+            window.setNavigationBarColor(this.currentColor);
 
             String newColor = String.format("#%08X", (this.currentColor));
             newColor = newColor.replace("#FF", "#");

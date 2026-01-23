@@ -1,6 +1,6 @@
 {
   "name": "@squareetlabs/capacitor-navigation-bar",
-  "version": "1.1.0",
+  "version": "1.1.2",
   "description": "This Capacitor Plugin allows control of the navigation bar on Android devices.",
   "main": "dist/plugin.cjs.js",
   "module": "dist/esm/index.js",

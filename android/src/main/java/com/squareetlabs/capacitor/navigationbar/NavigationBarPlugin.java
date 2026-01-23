@@ -126,7 +126,10 @@ public class NavigationBarPlugin extends Plugin {
 
             this.currentColor = Color.parseColor(color);
             window.setNavigationBarColor(this.currentColor);
-
+            if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.R) {
+                // Set decor fits system windows to false (edge-to-edge), but enforce color
+                window.setNavigationBarContrastEnforced(true);
+            }
             String newColor = String.format("#%08X", (this.currentColor));
             newColor = newColor.replace("#FF", "#");
 
